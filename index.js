@@ -6,5 +6,11 @@ const token = 'NTcyNDk5MTUzMTMzODk1Njk4.XNIeWQ.bGxAmV7GjVkhpNMe2BnX30a9_GA';
 bot.login(token);
 
 bot.on('ready', () => {
-    bot.user.setGame('dm will for help')
+    bot.user.setGame('+ Help | Jimmy Dan in Da House')
   })
+if(command === '+help') {
+  message.channel.send('If Jimmy Dean is away right now, you can DM him or Will for help!');
+} else
+if (command === 'blah') {
+  message.channel.send('Meh.');
+}
