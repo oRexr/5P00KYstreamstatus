@@ -1,10 +1,11 @@
-const Discord = require('discord.js');
-const bot = new Discord.Client();
+var Discord = require("discord.js");
+var bot = new Discord.Client();
 
-const token = 'NTcyNDk5MTUzMTMzODk1Njk4.XNIeWQ.bGxAmV7GjVkhpNMe2BnX30a9_GA';
+bot.on("ready", () => {
+  console.log("You are connected to " + bot.guilds.size + " servers!");
+  bot.user.setGame("youtube.com/willnelson", "https://www.twitch.tv/wilplayzyt")
+});
 
-bot.login(token);
 
-bot.on('ready', () => {
-    bot.user.setGame('DM Will For Help')
-  })
+
+bot.login('MzczODQ5MTgyNDMzNDQzODQx.XNRn_Q.DAwxcuXHNjbSX_l1n9e6cwYB6EA'); 
