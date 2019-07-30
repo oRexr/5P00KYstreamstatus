@@ -3,7 +3,7 @@ var bot = new Discord.Client();
 
 bot.on("ready", () => {
   console.log("You are connected to " + bot.guilds.size + " servers!");
-  bot.user.setGame("youtube.com/willnelson", "https://www.twitch.tv/wilplayzyt")
+  bot.user.setGame("Hey There", "https://www.twitch.tv/wilplayzyt")
 });
 
 
