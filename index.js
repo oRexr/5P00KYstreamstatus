@@ -8,4 +8,4 @@ bot.on("ready", () => {
 
 
 
-bot.login('token'); 
+bot.login('NjAyNjE0NTQ1MTIyMzI4NTk0.XUBweA.OtvF_-ZxfCHEnMbFz9gj-lX__RE'); 
