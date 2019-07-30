@@ -8,4 +8,4 @@ bot.on("ready", () => {
 
 
 
-bot.login('NjAyNjE0NTQ1MTIyMzI4NTk0.XUBweA.OtvF_-ZxfCHEnMbFz9gj-lX__RE'); 
+bot.login('NTc5MDU4NDA2Mjc5ODcyNTUw.XUBzPw.V0RcOt5MH9fjZ86Yip5Aru_bmvI'); 
